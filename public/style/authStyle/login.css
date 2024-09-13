@@ -1,3 +1,7 @@
+.main-content {
+  margin: 0 300px 0 250px;
+  padding: 20px;
+}
 .background-container {
   background-image: url("/images/background.png");
   background-size: cover;
@@ -103,11 +107,55 @@
     width: 80%;
     padding: 2.5rem 1.5rem;
   }
+
+  .input-style,
+  .submit-btn {
+    font-size: 0.95rem;
+  }
+
+  .signup-link {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
   .login-container {
     width: 90%;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .input-style,
+  .submit-btn {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+
+  .submit-btn {
+    font-size: 1rem;
+  }
+
+  .signup-link {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .login-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .input-style,
+  .submit-btn {
+    font-size: 0.85rem;
+    padding: 0.7rem;
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
+  }
+
+  .signup-link {
+    font-size: 0.8rem;
   }
 }
